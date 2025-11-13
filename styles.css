@@ -1,0 +1,165 @@
+body {
+	height: 97vh;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 125px;
+	font-family: "Kumbh Sans";
+}
+
+embed {
+	height: 16px;
+}
+
+.pictures-small {
+	width: 88px;
+	border-radius: 10px;
+}
+
+.pictures-bottom {
+	display: flex;
+	flex-direction: row;
+	gap: 32px;
+}
+
+.pictures-big {
+	border-radius: 15px;
+}
+
+.main-pictures {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.SC {
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #69707d;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 48px;
+}
+
+.paragraph {
+	font-weight: 400;
+	font-size: 16px;
+	color: #69707d;
+	line-height: 26px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.real-price {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 26px;
+	color: #69707d;
+	text-decoration: line-through;
+}
+
+.price-off {
+	font-weight: 700;
+	font-size: 16px;
+	color: white;
+	background-color: #1d2026;
+	width: max-content;
+	border-radius: 6px;
+	padding: 4px 8px;
+}
+
+.info-price {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	gap: 24px;
+}
+
+.price-number {
+	display: flex;
+	flex-direction: column;
+}
+
+.cart-number {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.cart {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.yellow {
+	color: #ff7e1b;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+.cart-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 16px;
+	width: max-content;
+	background-color: #ff7e1b;
+	border-radius: 10px;
+	flex-grow: 1;
+	padding: 16px;
+	transition: 0.2s ease-in-out;
+}
+
+.cart-button:hover {
+	cursor: pointer;
+	background-color: rgba(255, 126, 27, 0.5);
+}
+
+.main-info {
+	max-width: 445px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.info-cart {
+	display: flex;
+	flex-direction: row;
+	gap: 46px;
+}
+
+.pm {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 46px;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+.selected {
+	border: 2px solid #ff7e1b;
+	opacity: 75%;
+}
+
+.clickable {
+	transition: 0.2s ease-in-out;
+}
+
+.clickable:hover {
+	opacity: 50%;
+	cursor: pointer;
+}
